@@ -1,0 +1,211 @@
+body {
+    background-image: url("images/background3.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+    color: #333; /* Dark gray text color */
+}
+
+.maindiv {
+    width: 90%;
+    margin: auto;
+    background-color: #000; /* Black color */
+    opacity: 0.85;
+    color: #FFFFFF;
+}
+
+/* Header Styles */
+.header {
+    padding: 10px;
+    width: 75%;
+    height: 120px;
+}
+
+.header-logo img {
+    height: 90px; /* Reduce logo height */
+}
+
+/* Navigation Bar Styles */
+.nav-bar {
+    width: 80%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+    .nav-bar a {
+        text-decoration: none;
+        color: white;
+        padding-left: 6%;
+    }
+
+        .nav-bar a:hover {
+            text-decoration: underline;
+        }
+
+/* Content Styles */
+.content {
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 18px;
+}
+
+/* Heading Styles */
+.bigheading {
+    width: 95%;
+    background-color: #e9967a;
+    text-align: center;
+    padding: 2% 0; /* Adjusted padding */
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.categoryheading {
+    width: 89%;
+    background-color: #e9967a;
+    overflow: hidden;
+}
+
+/* Product Section Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distributes space between items */
+    margin-top: 20px; /* Space above product list */
+}
+
+.product {
+    width: calc(30% - 20px); /* Three products per row with space */
+    background-color: #f9f9f9; /* Light gray background for each product */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px; /* Margin between products */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+    .product h2 {
+        font-size: 1.5em; /* Increase product name font size */
+        margin: 10px 0; /* Space above and below */
+    }
+
+.product-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 150px; /* Limit height to maintain layout */
+}
+
+.product p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+/* Food Menu Styles */
+.foodmenu {
+    width: 110%;
+    height: 200px;
+}
+
+.food {
+    width: 80%;
+    background-color: #333333;
+    float: left;
+    margin: 3px;
+    border: 2px #B5651D;
+}
+
+.foodimage {
+    width: 20%;
+    height: 165px;
+    float: left;
+}
+
+    .foodimage img {
+        width: 100%;
+        height: 165px;
+    }
+
+.fooddetails {
+    width: 62%;
+    height: 165px;
+    float: left;
+    padding-left: 10px;
+}
+
+/* Gallery Styles */
+.gallery {
+    width: 43%; /* Adjust width for better alignment */
+    background-color: #d2b48c; /* Light brownish background color */
+    float: left;
+    margin: 3px;
+    border: 2px solid #ffa07a; /* Lighter salmon border */
+}
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    height: 265px;
+    background-color: #FFA07A; /* Dodger blue background color */
+    float: left;
+    border-top: solid #f00 1px;
+    color: white; /* Text color */
+}
+
+.footer-inside {
+    width: 31%;
+    padding: 5px;
+    float: left;
+}
+
+    .footer-inside a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+        .footer-inside a:hover {
+            text-decoration: underline;
+        }
+
+.footer1 p, .footer2 p, .footer3 p {
+    padding-left: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Contact Us Styles */
+.contact-us {
+    width: 100%;
+}
+
+/* Services Styles */
+.services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service {
+    width: 30%; /* Adjust width as needed */
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+    .service img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service h3 {
+        margin-top: 10px;
+        color: #ffa07a;
+    }
+
+    .service p {
+        color: #FFFFFF;
+    }
